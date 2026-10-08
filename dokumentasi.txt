@@ -1,0 +1,22 @@
+dokumentasi:
+
+venv
+ membuat folder dulu:
+	mkdir nama folder
+	cd nama folder
+ membuat venv:
+	python -m venv venv
+ mengaktifkan venv:
+	venv\Scripts\activate (cmd)
+	.\venv\Scripts\Activate.ps1 (ps)
+	source venv/Scripts/activate (bash)
+
+
+fast api
+ install fast api:
+	pip install fastapi uvicorn
+ mengaktifkan:
+	uvicorn main:app --reload
+	url + /docs
+
+
