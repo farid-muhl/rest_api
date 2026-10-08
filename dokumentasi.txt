@@ -20,3 +20,7 @@ fast api
 	url + /docs
 
 
+jangan lupa menembahkan git ignore: 
+venv/
+.venv/
+env/
