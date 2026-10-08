@@ -24,3 +24,8 @@ jangan lupa menembahkan git ignore:
 venv/
 .venv/
 env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
